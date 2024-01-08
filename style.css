@@ -95,3 +95,33 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  p {
+    text-align: center;
+  }
+  .navigation-links {
+    margin-top: 20px;
+  }
+  .navigation-links a {
+    margin: 10px;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+  .primary-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
